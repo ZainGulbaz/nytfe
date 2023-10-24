@@ -32,7 +32,7 @@ const Posts = () => {
     return (
         <div>
 
-            {(stories.length > 0) ? <SimpleGrid columns={[1, 3]} p={2} >
+            {(stories.length > 0) ? <SimpleGrid columns={[1, 1, 2, 3]} p={8} gap={2}>
                 {
                     stories?.map(story => (
                         <Box><CustomCard imageUrl={story?.multimedia?.[0]?.url} title={story?.title} articeUrl={story?.url} /></Box>
