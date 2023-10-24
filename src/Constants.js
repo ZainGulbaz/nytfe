@@ -1,0 +1,1 @@
+export const API_PREFIX="http://37.60.190.103/nytbe";
